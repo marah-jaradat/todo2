@@ -30,15 +30,9 @@ export default function List(prop) {
             Mark Complete
           </Button>
         )}{" "} */}
-        <Button
-          onClick={() => prop.deleteItem(prop.item.id)}
-          icon="cross"
-          intent="danger"
-        >
-          Delete
-        </Button>
+        <Button onClick={() => prop.deleteItem(prop.item.id)}>Delete</Button>
         <Button onClick={() => prop.toggleComplete(prop.item.id)}>
-          Complete: {prop.item.complete.toString()}
+          Complete {prop.item.complete.toString()}
         </Button>
         <When condition={auth.authurized("")}>
           <Button onClick={() => prop.deleteItem(prop.item.id)}>
@@ -70,15 +64,9 @@ export default function List(prop) {
               Mark Complete
             </Button>
           )}{" "} */}
-          <Button
-            onClick={() => prop.deleteItem(prop.item.id)}
-            icon="cross"
-            intent="danger"
-          >
-            Delete
-          </Button>
+          <Button onClick={() => prop.deleteItem(prop.item.id)}>Delete</Button>
           <Button onClick={() => prop.toggleComplete(prop.item.id)}>
-            Complete: {prop.item.complete.toString()}
+            Complete {prop.item.complete.toString()}
           </Button>
           <When condition={auth.authurized("")}>
             <Button onClick={() => prop.deleteItem(prop.item.id)}>
