@@ -14,6 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### Links:
 
-[pull request](https://github.com/marah-jaradat/To-do/pull/1)
+[pull request](https://github.com/marah-jaradat/todo2/pull/1)
 
 [deployment link](https://todo2-kappa.vercel.app/)
